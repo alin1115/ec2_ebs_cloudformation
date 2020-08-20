@@ -1,12 +1,12 @@
-        Couldformation Security Group template with the following properties :
+                Couldformation "EC2 Instance with Encrypted EBS Volume" template with the following properties :
 
-The Security Group has the following tags : 
+EC2 Instance with the following properties :
 
-        Team = Dev
-        Owner = Alina
-
-Security Group Rule that allows
-        ONLY 443/https.
+The EC2 has the following tags : 
+                Team = Dev
+                Owner = Alina
+        
+        EBS volume is ecnrypted
 
 Prerequisite - Prepare template:
 
@@ -20,7 +20,7 @@ Prerequisite - Prepare template:
 
 5. Download the file/template from GitHub and keep it ready to import/upload 
 
-6. Choose file (choose just copied/downloaded file in our case is security.yaml) 
+6. Choose file (choose just copied/downloaded file in our case is ec2.yaml) 
 
 7. Next 
 
