@@ -32,3 +32,5 @@ Prerequisite - Prepare template:
 10. Create a Stack 
 
 You will see CREATE_IN_PROGRESS then CREATE_COMPLETE
+
+NOTE: EBS Volume will get deleted after VM deletion
