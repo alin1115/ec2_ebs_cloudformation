@@ -3,8 +3,9 @@
 EC2 Instance with the following properties :
 
 The EC2 has the following tags : 
-                Team = Dev
-                Owner = Alina
+        
+        Team = Dev
+        Owner = Alina
         
         EBS volume is ecnrypted
 
