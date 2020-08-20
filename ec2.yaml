@@ -1,0 +1,18 @@
+Resources:
+  Ec2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-02354e95b39ca8dec  # Amazon Linux AMI in N.California
+      Tags:
+        - Key: Team
+          Value: Dev
+        - Key: Owner
+          Value: Alina
+      BlockDeviceMappings:
+        - DeviceName: /dev/xvda
+          Ebs:
+            VolumeType: gp2
+            VolumeSize: '30'
+            DeleteOnTermination: 'true'
+            Encrypted: 'true'
